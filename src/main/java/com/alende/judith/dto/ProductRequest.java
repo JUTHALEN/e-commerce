@@ -1,0 +1,15 @@
+package com.alende.judith.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductRequest {
+
+    int id;
+    String description;
+    double amount;
+}
