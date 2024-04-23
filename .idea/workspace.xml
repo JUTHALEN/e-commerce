@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0ab4948-00dc-4938-904c-1ed0a6ca9dc3" name="Changes" comment="Add README, fixes and test">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/dto/CartResponseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/dto/ProductRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/dto/ProductResponseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/model/ModelAnnotationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/config/ProductInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/config/ScheduledTasksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alende/judith/controller/impl/CartControllerImplSpringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alende/judith/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alende/judith/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alende/judith/config/ScheduledTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alende/judith/config/ScheduledTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alende/judith/controller/impl/ProductControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alende/judith/controller/impl/ProductControllerImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +66,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "JUnit.CartControllerImplSpringTest.TestCreateCart.executor": "Run",
+    "JUnit.CartControllerImplSpringTest.executor": "Run",
+    "JUnit.CartControllerImplSpringTest.testAddProductToCart_HappyCase.executor": "Run",
+    "JUnit.CartControllerImplSpringTest.testAddProductToCart_Success.executor": "Run",
+    "JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartDoesNotExist.executor": "Run",
+    "JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartExists.executor": "Run",
+    "JUnit.CartControllerImplTest.TestCreateCart.executor": "Run",
     "JUnit.CartControllerImplTest.executor": "Run",
     "JUnit.CartResponseTest.executor": "Coverage",
     "JUnit.ModelAnnotationsTest.executor": "Run",
     "JUnit.ProductControllerImplTest.executor": "Run",
+    "JUnit.ProductInitializerTest.executor": "Run",
     "JUnit.ProductRequestTest.executor": "Coverage",
     "JUnit.ProductResponseTest.executor": "Coverage",
     "JUnit.ProductServiceImplTest.executor": "Coverage",
     "JUnit.ProductServiceImplTest.testUpdateProduct_HappyCase.executor": "Run",
+    "JUnit.ScheduledTasksTest.cleanupExpiredCarts_ShouldDeleteExpiredCarts.executor": "Run",
     "JUnit.com.alende.judith.service.impl in cart.executor": "Coverage",
+    "JUnit.java in cart.executor": "Coverage",
     "Maven.cart [spring-boot:run...].executor": "Run",
     "Maven.cart [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,83 +100,87 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alende.judith.config" />
       <recent name="com.alende.judith.dto" />
       <recent name="com.alende.judith.controller.impl" />
       <recent name="com.alende.judith.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModelAnnotationsTest">
-    <configuration name="CartResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CartControllerImplSpringTest.testAddProductToCart_Success">
+    <configuration name="CartControllerImplSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alende.judith.dto.*" />
+          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alende.judith.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.alende.judith.dto.CartResponseTest" />
+      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplSpringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelAnnotationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartControllerImplSpringTest.testAddProductToCart_HappyCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alende.judith.model.*" />
+          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alende.judith.model" />
-      <option name="MAIN_CLASS_NAME" value="com.alende.judith.model.ModelAnnotationsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplSpringTest" />
+      <option name="METHOD_NAME" value="testAddProductToCart_HappyCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartControllerImplSpringTest.testAddProductToCart_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alende.judith.dto.*" />
+          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alende.judith.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.alende.judith.dto.ProductRequestTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplSpringTest" />
+      <option name="METHOD_NAME" value="testAddProductToCart_Success" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartControllerImplSpringTest.testGetCartById_WhenCartDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alende.judith.dto.*" />
+          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alende.judith.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.alende.judith.dto.ProductResponseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplSpringTest" />
+      <option name="METHOD_NAME" value="testGetCartById_WhenCartDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceImplTest.testUpdateProduct_HappyCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartControllerImplSpringTest.testGetCartById_WhenCartExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alende.judith.service.impl.*" />
+          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alende.judith.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.alende.judith.service.impl.ProductServiceImplTest" />
-      <option name="METHOD_NAME" value="testUpdateProduct_HappyCase" />
+      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplSpringTest" />
+      <option name="METHOD_NAME" value="testGetCartById_WhenCartExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModelAnnotationsTest" />
-        <item itemvalue="JUnit.ProductRequestTest" />
-        <item itemvalue="JUnit.CartResponseTest" />
-        <item itemvalue="JUnit.ProductResponseTest" />
-        <item itemvalue="JUnit.ProductServiceImplTest.testUpdateProduct_HappyCase" />
+        <item itemvalue="JUnit.CartControllerImplSpringTest.testAddProductToCart_Success" />
+        <item itemvalue="JUnit.CartControllerImplSpringTest.testAddProductToCart_HappyCase" />
+        <item itemvalue="JUnit.CartControllerImplSpringTest" />
+        <item itemvalue="JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartDoesNotExist" />
+        <item itemvalue="JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartExists" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713810079353</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add README, fixes and test">
+      <option name="closed" value="true" />
+      <created>1713813125827</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713813125827</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,5 +289,6 @@
     <SUITE FILE_PATH="coverage/ecommerce$com_alende_judith_service_impl_in_cart.ic" NAME="com.alende.judith.service.impl in cart Coverage Results" MODIFIED="1713804290192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.alende.judith.service.impl.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ecommerce$java_in_cart.ic" NAME="java in cart Coverage Results" MODIFIED="1713853667927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
