@@ -1,5 +1,8 @@
 package com.alende.judith.controller.impl;
 
+import static org.springframework.http.HttpStatus.CREATED;
+import static org.springframework.http.HttpStatus.OK;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,7 +31,7 @@ public class ProductControllerImpl implements ProductController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
         final var product = productService.createProduct(request.getDescription(), request.getAmount());
-        return ResponseEntity.status(HttpStatus.CREATED).body(new ProductResponse(product));
+        return ResponseEntity.status(CREATED).body(new ProductResponse(product));
     }
 
     @Override
@@ -39,7 +42,7 @@ public class ProductControllerImpl implements ProductController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
         ProductResponse response = new ProductResponse(product);
-        return ResponseEntity.status(HttpStatus.OK).body(response);
+        return ResponseEntity.status(OK).body(response);
     }
 
     @Override
@@ -47,7 +50,7 @@ public class ProductControllerImpl implements ProductController {
 
         List<ProductResponse> responses = productService.getProducts().stream().map(ProductResponse::new)
                 .collect(Collectors.toList());
-        return ResponseEntity.status(HttpStatus.OK).body(responses);
+        return ResponseEntity.status(OK).body(responses);
     }
 
     @Override
@@ -62,13 +65,13 @@ public class ProductControllerImpl implements ProductController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         ProductResponse response = new ProductResponse(updatedProduct);
-        return ResponseEntity.status(HttpStatus.OK).body(response);
+        return ResponseEntity.status(OK).body(response);
     }
 
     @Override
     public ResponseEntity<Void> deleteProduct(@PathVariable int id) {
 
         productService.deleteProduct(id);
-        return ResponseEntity.status(HttpStatus.OK).build();
+        return ResponseEntity.status(OK).build();
     }
 }
