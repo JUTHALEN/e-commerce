@@ -48,7 +48,7 @@ public class ProductControllerImpl implements ProductController {
     @Override
     public ResponseEntity<List<ProductResponse>> getAllProducts() {
 
-        List<ProductResponse> responses = productService.getProducts().stream().map(ProductResponse::new)
+        final var responses = productService.getProducts().stream().map(ProductResponse::new)
                 .collect(Collectors.toList());
         return ResponseEntity.status(OK).body(responses);
     }
@@ -59,12 +59,12 @@ public class ProductControllerImpl implements ProductController {
         if (request.getDescription() == null || request.getDescription().trim().isEmpty() || request.getAmount() <= 0) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
-        Product product = new Product(id, request.getDescription(), request.getAmount());
-        Product updatedProduct = productService.updateProduct(id, product);
+        final var product = new Product(id, request.getDescription(), request.getAmount());
+        final var updatedProduct = productService.updateProduct(id, product);
         if (updatedProduct == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
-        ProductResponse response = new ProductResponse(updatedProduct);
+        final var response = new ProductResponse(updatedProduct);
         return ResponseEntity.status(OK).body(response);
     }
 

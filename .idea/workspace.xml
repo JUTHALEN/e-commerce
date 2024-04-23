@@ -63,38 +63,38 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "JUnit.CartControllerImplSpringTest.TestCreateCart.executor": "Run",
-    "JUnit.CartControllerImplSpringTest.executor": "Run",
-    "JUnit.CartControllerImplSpringTest.testAddProductToCart_HappyCase.executor": "Run",
-    "JUnit.CartControllerImplSpringTest.testAddProductToCart_Success.executor": "Run",
-    "JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartDoesNotExist.executor": "Run",
-    "JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartExists.executor": "Run",
-    "JUnit.CartControllerImplTest.TestCreateCart.executor": "Run",
-    "JUnit.CartControllerImplTest.executor": "Run",
-    "JUnit.CartResponseTest.executor": "Coverage",
-    "JUnit.ModelAnnotationsTest.executor": "Run",
-    "JUnit.ProductControllerImplTest.executor": "Run",
-    "JUnit.ProductInitializerTest.executor": "Run",
-    "JUnit.ProductRequestTest.executor": "Coverage",
-    "JUnit.ProductResponseTest.executor": "Coverage",
-    "JUnit.ProductServiceImplTest.executor": "Coverage",
-    "JUnit.ProductServiceImplTest.testUpdateProduct_HappyCase.executor": "Run",
-    "JUnit.ScheduledTasksTest.cleanupExpiredCarts_ShouldDeleteExpiredCarts.executor": "Run",
-    "JUnit.com.alende.judith.service.impl in cart.executor": "Coverage",
-    "JUnit.java in cart.executor": "Coverage",
-    "Maven.cart [spring-boot:run...].executor": "Run",
-    "Maven.cart [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "feature/jalende-improvements",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jalendem/Documents/ecommerce"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;JUnit.CartControllerImplSpringTest.TestCreateCart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplSpringTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplSpringTest.testAddProductToCart_HappyCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplSpringTest.testAddProductToCart_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartDoesNotExist.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartExists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplTest.TestCreateCart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartResponseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ModelAnnotationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductInitializerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRequestTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ProductResponseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ProductServiceImplTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ProductServiceImplTest.testUpdateProduct_HappyCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScheduledTasksTest.cleanupExpiredCarts_ShouldDeleteExpiredCarts.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.alende.judith.service.impl in cart.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.java in cart.executor&quot;: &quot;Coverage&quot;,
+    &quot;Maven.cart [spring-boot:run...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cart [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/jalende-improvements&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jalendem/Documents/ecommerce&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -106,7 +106,7 @@
       <recent name="com.alende.judith.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CartControllerImplSpringTest.testAddProductToCart_Success">
+  <component name="RunManager" selected="JUnit.java in cart">
     <configuration name="CartControllerImplSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
       <extension name="coverage">
@@ -170,29 +170,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartControllerImplSpringTest.testGetCartById_WhenCartExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplSpringTest" />
-      <option name="METHOD_NAME" value="testGetCartById_WhenCartExists" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in cart" />
         <item itemvalue="JUnit.CartControllerImplSpringTest.testAddProductToCart_Success" />
         <item itemvalue="JUnit.CartControllerImplSpringTest.testAddProductToCart_HappyCase" />
         <item itemvalue="JUnit.CartControllerImplSpringTest" />
         <item itemvalue="JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartDoesNotExist" />
-        <item itemvalue="JUnit.CartControllerImplSpringTest.testGetCartById_WhenCartExists" />
       </list>
     </recent_temporary>
   </component>

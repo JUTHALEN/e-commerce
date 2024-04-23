@@ -36,6 +36,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product getProductById(final int id) {
+
         if (!products.containsKey(id)) {
             logger.error("Product with id {} not found", id);
             return null;
@@ -51,6 +52,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product updateProduct(final int id, final Product product) {
+
         final var existingProduct = products.get(id);
         if(existingProduct != null) {
             existingProduct.setDescription(product.getDescription());

@@ -22,7 +22,7 @@ public class ScheduledTasks {
     @Scheduled(fixedRate = CLEANUP_INTERVAL)
     public void cleanupExpiredCarts() {
 
-        LocalDateTime currentTime = LocalDateTime.now();
+        final var currentTime = LocalDateTime.now();
         cartService.findAllCarts().forEach(cart -> {
             if(ChronoUnit.MINUTES.between(cart.getExpiryTime(), currentTime) >= cartExpiryTime) {
                 cartService.deleteCart(cart.getId());
