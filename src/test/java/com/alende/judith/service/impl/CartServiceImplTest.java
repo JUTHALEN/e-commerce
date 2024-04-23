@@ -99,10 +99,8 @@ class CartServiceImplTest {
         Cart expiredCart = new Cart(cartId, new ConcurrentHashMap<>(), LocalDateTime.now().minusMinutes(1));
         service.carts.put(cartId, expiredCart);
 
-        // Act
         Cart updatedCart = service.addProductToCart(cartId, newProduct);
 
-        // Assert
         assertNotNull(updatedCart);
         assertFalse(updatedCart.getProducts().containsKey(newProduct.getId()));
     }
