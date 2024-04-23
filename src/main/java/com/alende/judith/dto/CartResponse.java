@@ -22,9 +22,9 @@ public class CartResponse implements Serializable {
 
     Long id;
 
-    private Map<Integer, ProductResponse> products;
+    Map<Integer, ProductResponse> products;
 
-    private LocalDateTime expiryTime;
+    LocalDateTime expiryTime;
 
     public CartResponse(Cart cart) {
 

@@ -18,7 +18,9 @@ public class ProductResponse implements Serializable {
     private static final long serialVersionUID = -6053467124601868172L;
 
     int id;
+
     String description;
+
     double amount;
 
     public ProductResponse(Product product) {

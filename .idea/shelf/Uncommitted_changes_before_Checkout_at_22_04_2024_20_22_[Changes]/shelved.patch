@@ -1,0 +1,289 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"graalvm-jdk-17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 74b9c1bbcfcf1ea7d3e49373b084659070592100)
++++ b/.idea/misc.xml	(date 1713805298389)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="MavenProjectsManager">
+     <option name="originalFiles">
+       <list>
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>target/\r\n!.mvn/wrapper/maven-wrapper.jar\r\n!**/src/main/**/target/\r\n!**/src/test/**/target/\r\n\r\n### IntelliJ IDEA ###\r\n.idea/modules.xml\r\n.idea/jarRepositories.xml\r\n.idea/compiler.xml\r\n.idea/libraries/\r\n*.iws\r\n*.iml\r\n*.ipr\r\n\r\n### Eclipse ###\r\n.apt_generated\r\n.classpath\r\n.factorypath\r\n.project\r\n.settings\r\n.springBeans\r\n.sts4-cache\r\n\r\n### NetBeans ###\r\n/nbproject/private/\r\n/nbbuild/\r\n/dist/\r\n/nbdist/\r\n/.nb-gradle/\r\nbuild/\r\n!**/src/main/**/build/\r\n!**/src/test/**/build/\r\n\r\n### VS Code ###\r\n.vscode/\r\n\r\n### Mac OS ###\r\n.DS_Store\r\n/.idea/uiDesigner.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 74b9c1bbcfcf1ea7d3e49373b084659070592100)
++++ b/.gitignore	(date 1713810133265)
+@@ -37,3 +37,9 @@
+ ### Mac OS ###
+ .DS_Store
+ /.idea/uiDesigner.xml
++/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2024_18_13_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2024_18_13__Changes_.xml
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_04_2024_19_01_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2024_19_00_[Changes]/shelved.patch
++/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_04_2024_19_01__Changes_.xml
++/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_2024_19_00__Changes_.xml
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f0ab4948-00dc-4938-904c-1ed0a6ca9dc3\" name=\"Changes\" comment=\"Model creation\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_COMMON_BRANCH\" value=\"master\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/JUTHALEN/ecommerce.git\",\r\n    \"accountId\": \"00436225-b931-470f-bf74-c96cc9c14374\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"openDirectoriesWithSingleClick\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_MARK_IGNORED_FILES_AS_EXCLUDED\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"feature/jalende-create-model\",\r\n    \"kotlin-language-version-configured\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"ecommerce\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"ecommerce\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f0ab4948-00dc-4938-904c-1ed0a6ca9dc3\" name=\"Changes\" comment=\"\" />\r\n      <created>1713799732422</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1713799732422</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Model creation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713800563712</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713800563712</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Model creation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713800691111</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713800691111</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Model creation\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Model creation\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 74b9c1bbcfcf1ea7d3e49373b084659070592100)
++++ b/.idea/workspace.xml	(date 1713810082127)
+@@ -4,7 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f0ab4948-00dc-4938-904c-1ed0a6ca9dc3" name="Changes" comment="Model creation" />
++    <list default="true" id="f0ab4948-00dc-4938-904c-1ed0a6ca9dc3" name="Changes" comment="Add Controllers and tests">
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -13,21 +17,41 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="Interface" />
+         <option value="Class" />
++        <option value="JUnit5 Test Class" />
+       </list>
+     </option>
++  </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="main" />
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_COMMON_BRANCH" value="master" />
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
++    <option name="RECENT_COMMON_BRANCH" value="main" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="SYNC" />
+   </component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/JUTHALEN/ecommerce.git",
+-    "accountId": "00436225-b931-470f-bf74-c96cc9c14374"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;JUTHALEN&quot;
+   }
+-}]]></component>
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/JUTHALEN/e-commerce.git&quot;,
++    &quot;accountId&quot;: &quot;00436225-b931-470f-bf74-c96cc9c14374&quot;
++  }
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 8
++}</component>
++  <component name="ProjectId" id="2fSpWxR21rev1T7Z9KYkFKUhI6i" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="autoscrollFromSource" value="true" />
+@@ -39,25 +63,113 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
++    "JUnit.CartControllerImplTest.executor": "Run",
++    "JUnit.ProductControllerImplTest.executor": "Run",
++    "JUnit.ProductServiceImplTest.executor": "Coverage",
++    "JUnit.ProductServiceImplTest.testUpdateProduct_HappyCase.executor": "Run",
++    "JUnit.com.alende.judith.service.impl in cart.executor": "Coverage",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "feature/jalende-create-model",
+-    "kotlin-language-version-configured": "true"
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
++    "git-widget-placeholder": "feature/jalendem-create-controllers",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/jalendem/Documents/ecommerce"
+   }
+ }]]></component>
+-  <component name="RunManager">
+-    <configuration default="true" type="JetRunConfigurationType">
+-      <module name="ecommerce" />
++  <component name="RecentsManager">
++    <key name="CreateTestDialog.Recents.Supers">
++      <recent name="" />
++    </key>
++    <key name="CreateTestDialog.RecentsKey">
++      <recent name="com.alende.judith.controller.impl" />
++      <recent name="com.alende.judith.service.impl" />
++    </key>
++  </component>
++  <component name="RunManager" selected="JUnit.ProductControllerImplTest">
++    <configuration name="CartControllerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="cart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
++      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.CartControllerImplTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ProductControllerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="cart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.alende.judith.controller.impl.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.alende.judith.controller.impl" />
++      <option name="MAIN_CLASS_NAME" value="com.alende.judith.controller.impl.ProductControllerImplTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ProductServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="cart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.alende.judith.service.impl.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.alende.judith.service.impl" />
++      <option name="MAIN_CLASS_NAME" value="com.alende.judith.service.impl.ProductServiceImplTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ProductServiceImplTest.testUpdateProduct_HappyCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="cart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.alende.judith.service.impl.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.alende.judith.service.impl" />
++      <option name="MAIN_CLASS_NAME" value="com.alende.judith.service.impl.ProductServiceImplTest" />
++      <option name="METHOD_NAME" value="testUpdateProduct_HappyCase" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+-      <module name="ecommerce" />
+-      <option name="filePath" />
++    <configuration name="com.alende.judith.service.impl in cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="cart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.alende.judith.service.impl.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.alende.judith.service.impl" />
++      <option name="TEST_OBJECT" value="package" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.ProductControllerImplTest" />
++        <item itemvalue="JUnit.CartControllerImplTest" />
++        <item itemvalue="JUnit.ProductServiceImplTest.testUpdateProduct_HappyCase" />
++        <item itemvalue="JUnit.ProductServiceImplTest" />
++        <item itemvalue="JUnit.com.alende.judith.service.impl in cart" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -84,11 +196,55 @@
+       <option name="project" value="LOCAL" />
+       <updated>1713800691111</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="creation main">
++      <option name="closed" value="true" />
++      <created>1713801005297</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1713801005297</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Add Services and ScheduledTasks">
++      <option name="closed" value="true" />
++      <created>1713802227388</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1713802227388</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Add test">
++      <option name="closed" value="true" />
++      <created>1713804449887</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1713804449887</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Add Controllers and tests">
++      <option name="closed" value="true" />
++      <created>1713810079353</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1713810079353</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Model creation" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Model creation" />
++    <MESSAGE value="creation main" />
++    <MESSAGE value="Add Services and ScheduledTasks" />
++    <MESSAGE value="Add test" />
++    <MESSAGE value="Add Controllers and tests" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add Controllers and tests" />
++  </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/ecommerce$ProductServiceImplTest.ic" NAME="ProductServiceImplTest Coverage Results" MODIFIED="1713804231184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
++      <FILTER>com.alende.judith.service.impl.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/ecommerce$com_alende_judith_service_impl_in_cart.ic" NAME="com.alende.judith.service.impl in cart Coverage Results" MODIFIED="1713804290192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
++      <FILTER>com.alende.judith.service.impl.*</FILTER>
++    </SUITE>
+   </component>
+ </project>
+\ No newline at end of file

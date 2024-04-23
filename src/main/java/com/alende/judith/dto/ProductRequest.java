@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 public class ProductRequest {
 
     int id;
+
     String description;
+
     double amount;
 }

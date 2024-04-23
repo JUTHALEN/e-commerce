@@ -13,6 +13,8 @@ import lombok.experimental.FieldDefaults;
 public class Product {
 
     int id;
+
     String description;
+
     double amount;
 }

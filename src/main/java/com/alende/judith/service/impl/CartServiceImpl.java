@@ -24,8 +24,9 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public Cart createCart(List<Product> products) {
+
         final var cartId = cartIdGenerator.incrementAndGet();
-        Map<Integer, Product> productMap = products.stream()
+        final var productMap = products.stream()
                 .collect(Collectors.toConcurrentMap(Product::getId, Function.identity()));
         final var cart = new Cart(cartId, productMap, LocalDateTime.now().plusMinutes(10));
         carts.put(cartId, cart);
@@ -44,6 +45,7 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public Cart addProductToCart(final Long cartId, final Product product) {
+
         final var cart = carts.get(cartId);
         if (cart != null && cart.getExpiryTime().isAfter(LocalDateTime.now())) {
             cart.getProducts().put(product.getId(), product);
@@ -53,6 +55,7 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public Cart removeProductFromCart(final Long cartId, final int productId) {
+
         final var cart = carts.get(cartId);
         if (cart != null) {
             cart.getProducts().remove(productId);
